@@ -21,7 +21,7 @@
 			the_content();
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_s' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ido_s' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -34,7 +34,7 @@
 					sprintf(
 						wp_kses(
 							/* translators: %s: Name of current post. Only visible to screen readers */
-							__( 'Edit <span class="screen-reader-text">%s</span>', '_s' ),
+							__( 'Edit <span class="screen-reader-text">%s</span>', 'ido_s' ),
 							array(
 								'span' => array(
 									'class' => array(),
