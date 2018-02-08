@@ -14,35 +14,35 @@ $woocommerce__color-info: #3D9CD2;
 /**
  * Imports
  */
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
+@import "variables-site/_variables-site";
+@import "mixins/_mixins-master";
 
 /**
  * Shop tables
  */
-@import "shop/tables";
+@import "shop/_tables";
 
 /**
  * Products
  */
-@import "shop/products";
+@import "shop/_products";
 
 /**
  * Single product
  */
-@import "shop/single-product";
+@import "shop/_single-product";
 
 /**
  * Checkout
  */
-@import "shop/checkout";
+@import "shop/_checkout";
 
 /**
  * General WooCommerce components
  */
-@import "shop/components";
+@import "shop/_components";
 
 /**
  * WooCommerce widgets
  */
-@import "shop/widgets";
+@import "shop/_widgets";
