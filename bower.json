@@ -1,0 +1,26 @@
+{
+  "name": "lib",
+  "authors": [
+    "ido barnea <barbareshet@gmail.com>"
+  ],
+  "description": "",
+  "main": "bower.json",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "3.3.*",
+    "bootstrap-rtl": "3.*",
+    "slick-carousel": "^1.*",
+    "css-hamburgers": "^0.9.1",
+    "hover": "^2.1.1",
+    "fancybox": "^3.0",
+    "masonry-layout": "masonry#^4.2.1"
+  }
+}
