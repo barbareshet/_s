@@ -3,7 +3,9 @@
  */
 /**
  * based on https://www.sitepoint.com/wordpress-theme-automation-with-gulp/...
+ * and: https://ahmadawais.com/my-advanced-gulp-workflow-for-wordpress-themes/
  * */
+var site = 'http://localhost/ido_s/';
 var project = 'ido_s';
 var build 		= './buildtheme/'; // Files that you want to package into a zip go here
 var buildInclude 	= [
@@ -97,7 +99,7 @@ gulp.task('timestamp', function () {
 gulp.task('watch', function() {
     browserSync.init({
         files: ['./**/*.php'],
-        proxy: 'http://localhost/shablul/',
+        proxy: site,
     });
     gulp.watch('assets/dev/scss/**/*.scss', ['sass',reload]);
     gulp.watch('assets/dev/img/*', ['images']);
